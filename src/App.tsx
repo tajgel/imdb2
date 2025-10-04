@@ -40,7 +40,7 @@ function App() {
     (async () => {
       try {
         const data = await fetch(
-          `http://www.omdbapi.com/?apikey=${apikey}&t=${search}`
+          `https://www.omdbapi.com/?apikey=${apikey}&t=${search}`
         );
         setFilms(await data.json())
       } catch (error) {
