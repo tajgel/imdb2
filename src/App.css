@@ -5,7 +5,14 @@ body{
   color: white;
 }
 
-div{
-  border: 1px solid white;
-  border-radius: 25px;
+.textt{
+  @apply mt-0.5 ml-5 
+}
+
+.c-margins{
+  @apply ml-5 mr-3 mt-0.5
+}
+
+#peoples hr{
+  @apply bg-gray-500 ml-5 mr-3 mt-0.5 
 }
